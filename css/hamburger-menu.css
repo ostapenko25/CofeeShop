@@ -1,0 +1,86 @@
+/*Hamburger menu*/
+.hamburger-menu {	
+	display: none; /*!!!!!!!!! none*/
+	width: 100px;
+	height: 80px;
+	background-color: #e75b6f;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 0;	
+}
+
+.is-active {
+	background-color: #f9c793; 
+}
+
+.hamburger-menu .line{
+	width: 40px;
+	height: 5px;
+	background-color: #ecf0f1;
+	display: block;
+	margin: 8px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.hamburger-menu:hover{
+  cursor: pointer;
+}
+
+/* hamburger - icon move */
+#hamburger.is-active .line:nth-child(1){
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
+  background-color:  black;
+}
+
+#hamburger.is-active .line:nth-child(2){
+  opacity: 0;
+}
+
+#hamburger.is-active .line:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+	 background-color:  black;
+}
+
+#hamburger.is-active .nav-hamb-xs{
+	width: 300%;
+	transition: all 0.5s ease;
+}
+/*Hamburger menu -- end*/
+
+.menu-wrapper {
+	position:  relative;
+}
+
+.nav-hamb-xs {	
+	visibility: hidden;
+	opacity:0;
+	font-size: 18px;
+	padding: 10px 30px 5px 30px;
+	position: absolute;
+	z-index: 10;
+	background: black;
+	width: 250px;
+	top: 80px;
+	right: 0px;
+	transition: all 0.5s ease;
+	
+}
+
+.hamburger-open {
+	visibility: visible;
+
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+

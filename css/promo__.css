@@ -1,0 +1,35 @@
+/*Promo*/
+#promoimg1 {
+	display: block;
+}
+
+#promoimg2, #promoimg3  {
+	display: none;
+}
+
+.promo__text {
+	border-top: 5px solid red;
+	outline: 5px solid black;
+	color: #fcd2a6;
+}
+
+.promo__text h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.promo__text:hover {
+	cursor: pointer;
+	background-color: #f9c793;
+	transition: all 0.3s ease;
+	color: black;
+}
+.promo__img {	
+	max-height: 450px;
+	overflow:  hidden;	
+}
+
+.promo__img img{
+	width: 100%;
+}
+/*Promo end*/

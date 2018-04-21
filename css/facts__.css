@@ -1,0 +1,22 @@
+/*Facts*/
+.facts__pic {
+	padding: 2% 5%;
+}
+
+.facts__cont {
+	padding: 2% 5%;
+}
+
+.facts__text p,
+.hist__text p {
+	padding-bottom: 10px;
+}
+
+#facts-text {
+	display: none;	
+}
+
+.facts__btn {	
+	margin-bottom: 10px;
+}
+/*Facts end*/

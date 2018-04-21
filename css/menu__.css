@@ -1,0 +1,37 @@
+/*Menu*/
+.menu {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.grid {	
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grid-item { 
+	display: block;		
+	width: 30%; 
+	margin: 5px;
+	}
+
+.grid:hover .grid-item {
+	opacity: 0.5;
+	transition: all 0.3s ease;
+}
+
+.grid:hover .grid-item:hover {
+	opacity: 1; 
+	transition: all 0.3s ease;
+}
+
+.menu__tag.btn {
+	text-transform: none;
+}
+/*Menu - wnd*/
+
+
+

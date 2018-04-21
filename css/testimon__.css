@@ -1,0 +1,25 @@
+/*testimon*/
+.testimon__pic {	
+	overflow: hidden;
+}
+.testimon__pic img {	
+	width: 70%;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.testimon__cont {
+	padding: 0 5%;
+	margin-top: 70px;	
+}
+
+.testimon__cont p {   
+	font-size: 14px;
+}
+
+.testi__tag.btn {
+	display: none;
+	background: #dc3413;
+}
+
+/*testimon end*/

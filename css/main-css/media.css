@@ -1,0 +1,160 @@
+
+/*Tablet AND mobile*/
+@media (max-width: 768px) {
+	.footer__nav {			
+	flex-direction: column;
+	}
+} 
+/*Tablet  AND mobile - end*/
+
+/*************************************************/
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1200px) {
+	
+/* 	.header__logo {
+		margin-top: 30px;		
+	}	 */
+	
+	.navbar-nav li {    
+    margin-top: 20px;
+	margin-bottom: 20px;		
+	}
+	
+
+	.navbar-nav li {    
+    margin: 20px 0;	
+	padding-top: 30px;
+	}
+	
+	.about__img  {
+	width: 400px;
+	height: 400px;	
+	}
+	
+	.facts__btn {
+		margin: 0 auto;
+	}
+	
+			.facts__btn {
+		text-align: center;
+	}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.header__logo {
+		margin-top: 30px;
+	}
+}
+/*Tablet -- end*/
+
+/*************************************************/
+
+/*Mobile*/
+
+@media (max-width: 768px)  {
+	.navbar-nav {
+		display: none;
+	}
+	
+	.hamburger-menu {
+		display:  block
+	}
+	
+	.promo__img {	
+		max-height: 200px;	
+	}
+	
+	.promo__text p {
+		font-size: 14px;
+	}
+	
+	.promo__text h3 {
+		padding-bottom: 15px;
+	}
+	
+	.facts__btn {
+		text-align: center;
+	}
+	
+	.testimon .row:nth-child(2),
+	.testimon .row:nth-child(3){
+		display: none;
+	} 
+	
+	.testimon .row:nth-child(1) .testimon__pic,
+	.testimon .row:nth-child(1) .testimon__cont	{		
+		width: 100%;
+	}
+	
+	.testimon .row:nth-child(1) .blockquote {
+		border:none;
+	}
+	
+	.testi__tag.btn {
+		display: block;
+}
+	.blog .row:nth-child(2){
+		display: none;
+	} 
+	
+	.blog__tag.btn {
+		display: block;
+	}
+	
+	.footer__nav li a {	
+	border: none;
+	}
+	
+}
+
+
+@media (max-width: 330px) {	
+	body {
+		font-size: 10px;
+	}
+	
+	.hamburger-menu {
+		width: 50px;
+		height: 50px;
+		padding-top: 1px;
+		padding-right: 40px;
+	}
+	
+	.hamburger-menu .line{
+		width: 25px;
+		height: 5px;
+		padding: 0;
+		margin: 8px auto;
+	}
+	
+	.about__img {
+		display: none;
+	}
+}
+/*Mobile -- end*/
+
+@media (min-width: 330px) and (max-width: 1000px) {	
+	.about__text {
+		width: 100%
+	}
+	
+	.about__p {
+		width: 100%;
+		padding: 0 5%;
+		text-align: justify
+	}
+	
+	.about__title,
+	.about__soc {		
+		text-align: center;
+	}
+	
+	.about__img,
+	.about .title__border  {
+		display: none;
+	}
+}
+

@@ -1,0 +1,73 @@
+/*Header*/
+header {
+	background-color: black;
+}
+
+.header__logo {
+	background-color: #dc3413;
+	padding: 10px;
+}
+
+.header__menu {
+	font-size: 20px;
+    font-family: "28DaysLater.ttf", Arial, sans-serif;
+}
+
+.navbar-nav a {
+	border-right: 3px dotted bisque;
+	padding: 10px 20px !important;
+	margin: 0;
+	margin-top: 15px;	
+}
+
+.navbar-nav a:hover {
+	background-color: #f9c793 !important;
+	color: black;
+	transition: all 0.3s ease;
+}
+
+.navbar-nav li {
+	position:  relative;
+	padding-top: 50px;
+	margin-top: 40px;
+	
+}
+
+.nav__btn {
+	width: 35px;
+	height:  35px;
+	position: absolute;
+	top: 0;
+	left: 30%;
+}
+
+.nav__btn.btn-about {
+	background: url('../img/btn-about.png') 20% 0% no-repeat;
+	background-size: 100%;	
+}
+
+.nav__btn.btn-coffee {
+	background: url('../img/btn-cofee.png') 30% 0 no-repeat;
+	background-size: 90%;	
+}
+
+.nav__btn.btn-menu {
+	background: url('../img/btn-menu.png') 30% 0 no-repeat;
+	background-size: 50%;	
+}
+
+.nav__btn.btn-blog {
+	background: url('../img/btn-blog.png') 0 0 no-repeat;
+	background-size: 80%;	
+}
+
+.nav__btn.btn-testim {
+	background: url('../img/btn-testim.png') 0 0 no-repeat;
+	background-size: 100%;	
+}
+
+.nav__btn.btn-contact {
+	background: url('../img/btn-contact.png') 100% 0 no-repeat;
+	background-size: 60%;	
+}
+/*Header end*/

@@ -1,0 +1,59 @@
+/*Contacts*/
+.contacts {
+	padding-bottom: 50px;
+}
+.contacts .title__border {
+	margin: 0;
+}
+
+.contacts__info p {	
+	font-size: 20px;
+	font-style: italic; 
+	font-weight: 100;
+	padding-top: 10px;
+}
+
+.contacts__form {
+	margin-top: 30px;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 2px dotted #a1936f;
+	background: black;
+	color: #f9c793;
+}
+
+input[type="text"]::-webkit-input-placeholder {color: #912714;font-style: italic;}
+input[type="texth"]:-ms-input-placeholder { color: #912714;font-style: italic; }
+input[type="text"]::-ms-input-placeholder { color: #912714;font-style: italic; }
+input[type="text"]::placeholder { color: #912714;font-style: italic; } 
+
+input[type="text"]:focus{
+	border: none;
+	outline: none;
+	border-bottom: 2px dotted red;
+	background: black;
+}
+
+textarea:focus {
+	 border: none;
+	 outline: none;
+	 border-bottom: 2px dotted red !important;
+}
+
+.btn-send.btn {
+	background-color: black;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 800;
+	color: grey;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.form-group small {
+	color: grey;
+}
+
+/*Contacts end*/
