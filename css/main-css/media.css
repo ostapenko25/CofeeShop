@@ -68,7 +68,7 @@
 	}
 	
 	.promo__text p {
-		font-size: 14px;
+		display: none;
 	}
 	
 	.promo__text h3 {
@@ -78,6 +78,19 @@
 	.facts__btn {
 		text-align: center;
 	}
+	
+	.fh-text {
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+}
+	
+	.facts__history + p,
+	.facts__facts + p {
+	opacity: 1;	
+	visibility: visible;
+	font-size: 18px;
+}
 	
 	.testimon .row:nth-child(2),
 	.testimon .row:nth-child(3){
@@ -107,7 +120,6 @@
 	.footer__nav li a {	
 	border: none;
 	}
-	
 }
 
 
@@ -133,6 +145,12 @@
 	.about__img {
 		display: none;
 	}
+	
+	.facts__history + p,
+	.facts__facts + p {	
+	font-size: 14px;
+	}
+	
 }
 /*Mobile -- end*/
 

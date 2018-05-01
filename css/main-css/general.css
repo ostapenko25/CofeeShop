@@ -71,3 +71,12 @@ a {
 	border; none;
 	background: #f9c793;
 }
+
+.show {
+	display: block;
+	outline: 12px solid red;
+}
+
+.hide {
+	display: none;
+}

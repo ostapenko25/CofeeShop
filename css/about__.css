@@ -47,4 +47,8 @@
 	background-size: cover;
 	border: 3px solid white;
 }
+
+.facts__cont .grid-item {
+	width: auto;
+}
 /*About end*/
