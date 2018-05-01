@@ -73,6 +73,8 @@
 	
 	.promo__text h3 {
 		padding-bottom: 15px;
+		font-size: 12px;
+   	        text-align: center;
 	}
 	
 	.facts__btn {
@@ -80,16 +82,16 @@
 	}
 	
 	.fh-text {
-	display: flex;
-	flex-direction: column;	
-	text-align: center;
+		display: flex;
+		flex-direction: column;	
+		text-align: center;
 }
 	
 	.facts__history + p,
 	.facts__facts + p {
-	opacity: 1;	
-	visibility: visible;
-	font-size: 18px;
+		opacity: 1;	
+		visibility: visible;
+		font-size: 18px;
 }
 	
 	.testimon .row:nth-child(2),
@@ -118,7 +120,7 @@
 	}
 	
 	.footer__nav li a {	
-	border: none;
+		border: none;
 	}
 }
 
