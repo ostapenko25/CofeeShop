@@ -1,9 +1,9 @@
 /*Hamburger menu*/
 .hamburger-menu {	
-	display: none; /*!!!!!!!!! none*/
+	display: none; 
 	width: 100px;
 	height: 80px;
-	background-color: #e75b6f;
+	background-color: #D22F1E;
 	position: absolute;
 	right: 0;
 	top: 0;
